@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="448" Width="841">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Zoo ListBox -->
+        <ListBox x:Name="ZooListBox" Grid.Column="0" Margin="10" 
+                 DisplayMemberPath="Location" SelectedValuePath="Id" 
+                 SelectionChanged="ZooListBox_SelectionChanged"/>
+
+        <!-- Animal DataGrid -->
+        <DataGrid x:Name="AnimalDataGrid" Grid.Column="1" Margin="0,0,0,22" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Animal Name" Binding="{Binding Name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Add/Delete Controls -->
+        <StackPanel Grid.Column="2" VerticalAlignment="Center">
+            <Button x:Name="AddExistingAnimalButton" Content="Add Existing Animal" Click="AddExistingAnimalButton_Click" Width="200" Height="50" Margin="10"/>
+            <ComboBox x:Name="ExistingAnimalsComboBox" Width="150" SelectionChanged="ExistingAnimalsComboBox_SelectionChanged" Height="20" Margin="0,0,0,20"/>
+            <Button x:Name="DeleteZooButton" Content="Delete Selected Zoo" Click="DeleteZooButton_Click" Margin="10" Height="30" Width="200"/>
+            <TextBlock Text="Deleted Zoos:" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+            <ComboBox x:Name="DeletedZoosComboBox" DisplayMemberPath="Location" Width="150"/>
+            <Button x:Name="RestoreZooButton" Content="Restore Selected Zoo" Click="RestoreZooButton_Click" Margin="0,10,0,0" Height="30" Width="200"/>
+
+            <!-- Add Zoo Section -->
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Add Zoo:" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                <TextBox x:Name="ZooInputTextBox" Width="150" Margin="0,0,10,0"/>
+                <Button x:Name="AddZooConfirmButton" Content="Add" Click="AddZooConfirmButton_Click" Width="70" Height="20"/>
+            </StackPanel>
+
+            <!-- Add Animal Section -->
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Add Animal:" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                <TextBox x:Name="AnimalInputTextBox" Width="150" Margin="0,0,10,0"/>
+                <Button x:Name="AddAnimalConfirmButton" Content="Add" Click="AddAnimalConfirmButton_Click" Width="70" Height="20"/>
+            </StackPanel>
+
+            <Button x:Name="DeleteAnimalButton" Content="Delete Selected Animal" Click="DeleteAnimalButton_Click" Margin="0,0,0,10" Height="30" Width="200"/>
+        </StackPanel>
+    </Grid>
+</Window>

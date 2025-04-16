@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|c:\\users\\ich\\documents\\leonis projekte\\21.03.25.13-49\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|c:\\users\\ich\\documents\\leonis projekte\\21.03.25.13-49\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|c:\\users\\ich\\documents\\leonis projekte\\21.03.25.13-49\\wpfapp1\\wpfapp1\\newfolder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF73CF4C-E228-4B67-8A29-16FE9E35C7BD}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\newfolder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:49:38.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\NewFolder\\Person.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\NewFolder\\Person.cs",
+              "ToolTip": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\NewFolder\\Person.cs",
+              "RelativeToolTip": "WpfApp1\\NewFolder\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:31:12.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ich\\Documents\\LEonis Projekte\\21.03.25.13-49\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T12:49:59.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

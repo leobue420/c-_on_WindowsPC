@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj": {}
+    "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj": {
+    "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
+        "projectUniqueName": "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
         "projectName": "MyAvaloniaApp",
-        "projectPath": "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
+        "projectPath": "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
         "packagesPath": "C:\\Users\\ich\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\obj\\",
+        "outputPath": "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j/hb7P8Dgu8=",
+  "dgSpecHash": "b8otysoQ4nk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
+  "projectFilePath": "C:\\Users\\ich\\Documents\\LEonis Projekte\\15.03.25\\MyAvaloniaApp\\MyAvaloniaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ich\\.nuget\\packages\\avalonia\\11.2.5\\avalonia.11.2.5.nupkg.sha512",
     "C:\\Users\\ich\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
@@ -41,5 +41,12 @@
     "C:\\Users\\ich\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
     "C:\\Users\\ich\\.nuget\\packages\\tmds.dbus.protocol\\0.20.0\\tmds.dbus.protocol.0.20.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }
